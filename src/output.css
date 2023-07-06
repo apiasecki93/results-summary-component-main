@@ -524,38 +524,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute{
-  position: absolute;
-}
-
-.mt-\[\]{
-  margin-top: ;
-}
-
-.mt-\[2\]{
-  margin-top: 2;
-}
-
-.mt-\[20px\]{
-  margin-top: 20px;
-}
-
-.mt-\[10px\]{
-  margin-top: 10px;
-}
-
-.mt-px{
-  margin-top: 1px;
-}
-
-.mt-\[1px\]{
-  margin-top: 1px;
-}
-
-.mt-\[5px\]{
-  margin-top: 5px;
-}
-
 .flex{
   display: flex;
 }
@@ -580,28 +548,12 @@ video {
   width: 145px;
 }
 
-.w-full{
-  width: 100%;
-}
-
-.w-\[300px\]{
-  width: 300px;
-}
-
-.w-\[600px\]{
-  width: 600px;
-}
-
-.w-\[\]{
-  width: ;
-}
-
-.w-\[80\]{
-  width: 80;
-}
-
 .w-\[80\%\]{
   width: 80%;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .cursor-pointer{
@@ -646,10 +598,6 @@ video {
 
 .gap-7{
   gap: 1.75rem;
-}
-
-.gap-1{
-  gap: 0.25rem;
 }
 
 .overflow-hidden{
@@ -809,24 +757,44 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:mt-\[30px\]{
-    margin-top: 30px;
-  }
-
-  .md\:mt-\[50px\]{
-    margin-top: 50px;
+  .md\:mb-\[5px\]{
+    margin-bottom: 5px;
   }
 
   .md\:mt-\[200px\]{
     margin-top: 200px;
   }
 
-  .md\:mt-\[20px\]{
-    margin-top: 20px;
+  .md\:mt-\[30px\]{
+    margin-top: 30px;
   }
 
-  .md\:mt-\[0px\]{
-    margin-top: 0px;
+  .md\:mt-\[40px\]{
+    margin-top: 40px;
+  }
+
+  .md\:mt-\[50px\]{
+    margin-top: 50px;
+  }
+
+  .md\:mt-\[60px\]{
+    margin-top: 60px;
+  }
+
+  .md\:mt-\[70px\]{
+    margin-top: 70px;
+  }
+
+  .md\:mt-\[80px\]{
+    margin-top: 80px;
+  }
+
+  .md\:mt-\[8s0px\]{
+    margin-top: 8s0px;
+  }
+
+  .md\:mt-\[20px\]{
+    margin-top: 20px;
   }
 
   .md\:mt-\[10px\]{
@@ -837,14 +805,6 @@ video {
     margin-top: 5px;
   }
 
-  .md\:mb-\[5px\]{
-    margin-bottom: 5px;
-  }
-
-  .md\:flex{
-    display: flex;
-  }
-
   .md\:h-\[466px\]{
     height: 466px;
   }
@@ -853,44 +813,12 @@ video {
     height: 60vh;
   }
 
-  .md\:h-\[70vh\]{
-    height: 70vh;
-  }
-
-  .md\:h-\[60\%\]{
-    height: 60%;
-  }
-
-  .md\:h-\[\]{
-    height: ;
-  }
-
-  .md\:h-\[46\]{
-    height: 46;
-  }
-
-  .md\:w-1\/2{
-    width: 50%;
-  }
-
-  .md\:w-\[50vh\]{
-    width: 50vh;
-  }
-
-  .md\:w-\[672px\]{
-    width: 672px;
-  }
-
   .md\:w-\[50\%\]{
     width: 50%;
   }
 
-  .md\:w-\[\]{
-    width: ;
-  }
-
-  .md\:w-\[300px\]{
-    width: 300px;
+  .md\:w-\[672px\]{
+    width: 672px;
   }
 
   .md\:flex-row{
