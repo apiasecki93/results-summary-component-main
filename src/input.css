@@ -1,0 +1,12 @@
+/* @import url('https://fonts.google.com/specimen/Roboto'); */
+@import url('https://fonts.google.com/specimen/Hanken+Grotesk:wght@300;400;500;600;700');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* make imported font to eb aviable with allias newFont with weight 500, 700, 800*/
+
+
+

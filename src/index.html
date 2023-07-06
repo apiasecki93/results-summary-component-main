@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./output.css" rel="stylesheet" />
+  <!-- <link href="./input.css" rel="stylesheet" /> -->
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="flex flex-col md:items-center md:justify-center overflow-hidden w-full md:flex-row ">
+  <div id="mainContainer" class="flex flex-col font-fontHanken w-full  md:gap-0 justify-center items-center md:flex-row md:shadow-2xl md:rounded-2xl md:w-[672px] md:h-[466px] md:mt-[200px]">
+    <!-- section 1  -->
+    <div id="main1" class="
+        flex flex-col gap-7
+        bg-gradient-to-b from-lighPurple w-full to-darkPurple
+        h-full rounded-b-3xl items-center justify-center 
+        text-center flex-grow-1 md:w-[50%]  md:rounded-3xl ">
+      <div class="gap-5">
+        <div class="text-subtelCol pt-6 pb-5 font-hanken-700">Your Result</div>
+        <div id="Circle" class="flex flex-col  w-[145px] h-[145px] rounded-full bg-gradient-to-b from-darkPurple  to-midPurple items-center justify-center">
+        <div class="flex flex-col gap-4 items-center">
+          <div class="flex  font-hanken-800 text-5xl text-zinc-200">76</div>
+          <div class="flex text-subtelCol">of 100</div>
+        </div>
+        
+      </div>
+      </div>
+      
+      <div class="text-zinc-200 font-hanken-700">Great</div>
+      <div class="px-10">
+        <div class="text-subtelCol pb-5">You scored higher than 65% of the people who have taken these tests.</div>
+      </div>
+    </div>
+    <!-- section 2 -->
+    <div id="main2" class="flex flex-col p-5 w-[80%] gap-5  md:h-[60vh] md:w-[50%] md:mt-[30px]">
+      <div class="flex flex-col  ">
+        <div class="flex  font-hanken-700 md:text-2xl ">Summary</div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div class="flex flex-row justify-between gap-10 bg-pink-200/50 rounded-2xl px-3 py-4 md:px-4 md:py-5">
+          <div class="flex flex-row gap-2">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction icon">
+            <div>Reaction</div>
+          </div>
+          <div><span class="font-hanken-700">80</span> / 100</div>
+        </div>
+        <div class="flex flex-row justify-between bg-yellow-200/50 rounded-2xl px-3 py-4 md:px-4 md:py-5">
+          <div class="flex flex-row gap-2">
+            <img src="./assets/images/icon-memory.svg" alt="reaction icon">
+            <div>Memory</div>
+          </div>
+          <div><span class="font-hanken-700">92</span> / 100</div>
+        </div>
+        <div class="flex flex-row justify-between bg-green-200/50 rounded-2xl px-3 py-4 md:px-4 md:py-5">
+          <div class="flex flex-row gap-2">
+            <img src="./assets/images/icon-verbal.svg" alt="reaction icon">
+            <div>Verbal</div>
+          </div>
+          <div><span class="font-hanken-700">61</span> / 100</div>
+        </div>
+        <div class="flex flex-row justify-between bg-blue-200/50 rounded-2xl px-3 py-4 md:px-4 md:py-5">
+          <div class="flex flex-row gap-2">
+            <img src="./assets/images/icon-visual.svg" alt="reaction icon">
+            <div>Visual</div>
+          </div>
+          <div><span class="font-hanken-700">72</span> / 100</div>
+        </div>
+      </div>
+      <div class="flex items-center justify-center w-full bg-black h-[50px] md:mb-[5px] rounded-2xl hover:bg-blue-700 transition-colors duration-200 cursor-pointer   ">
+        <div class="flex text-white font-hanken-700 ">Continue</div>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
